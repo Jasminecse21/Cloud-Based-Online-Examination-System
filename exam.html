@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Examination</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h2>☁️ CloudExam</h2>
+
+    <div class="timer">
+        ⏱️ Time Left:
+        <span id="timer">05:00</span>
+    </div>
+
+</header>
+
+<div class="exam-container">
+
+    <h1>Web Technology Examination</h1>
+
+    <form id="examForm">
+
+        <div class="question">
+
+            <h3>1. What does HTML stand for?</h3>
+
+            <label>
+                <input type="radio" name="q1" value="correct">
+                Hyper Text Markup Language
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="wrong">
+                High Text Machine Language
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="wrong">
+                Hyperlink Text Management Language
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="wrong">
+                Home Tool Markup Language
+            </label>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>2. Which language is used for styling web pages?</h3>
+
+            <label>
+                <input type="radio" name="q2" value="wrong">
+                HTML
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="correct">
+                CSS
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="wrong">
+                Python
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="wrong">
+                Java
+            </label>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>3. Which language is mainly used to make web pages interactive?</h3>
+
+            <label>
+                <input type="radio" name="q3" value="wrong">
+                HTML
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="wrong">
+                CSS
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="correct">
+                JavaScript
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="wrong">
+                SQL
+            </label>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>4. Which tag is used to create a hyperlink?</h3>
+
+            <label>
+                <input type="radio" name="q4" value="correct">
+                &lt;a&gt;
+            </label>
+
+            <label>
+                <input type="radio" name="q4" value="wrong">
+                &lt;p&gt;
+            </label>
+
+            <label>
+                <input type="radio" name="q4" value="wrong">
+                &lt;link&gt;
+            </label>
+
+            <label>
+                <input type="radio" name="q4" value="wrong">
+                &lt;h1&gt;
+            </label>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>5. Which symbol is used for an ID selector in CSS?</h3>
+
+            <label>
+                <input type="radio" name="q5" value="wrong">
+                .
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="correct">
+                #
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="wrong">
+                *
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="wrong">
+                @
+            </label>
+
+        </div>
+
+        <button type="button" onclick="submitExam()">
+            Submit Examination
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

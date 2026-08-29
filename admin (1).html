@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h2>☁️ CloudExam Admin</h2>
+
+    <nav>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+
+</header>
+
+
+<div class="dashboard">
+
+    <h1>Admin Dashboard</h1>
+
+    <div class="dashboard-grid">
+
+        <div class="card">
+
+            <h2>👨‍🎓 Students</h2>
+
+            <h1>25</h1>
+
+            <p>Registered Students</p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>📝 Exams</h2>
+
+            <h1>4</h1>
+
+            <p>Available Exams</p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>📊 Results</h2>
+
+            <h1 id="adminScore">0</h1>
+
+            <p>Latest Student Score</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="admin-section">
+
+        <h2>Exam Management</h2>
+
+        <button onclick="alert('New exam feature can be connected to Firebase.')">
+            + Create New Exam
+        </button>
+
+        <button onclick="alert('Question management can be connected to Firebase.')">
+            + Add Questions
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
